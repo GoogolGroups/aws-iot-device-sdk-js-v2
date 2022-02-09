@@ -128,7 +128,6 @@ and receive.
 {
   "Version": "2012-10-17",
   "Statement": [
-
     {
       "Effect": "Allow",
       "Action": [
@@ -170,7 +169,6 @@ and receive.
       "Action": "iot:Connect",
       "Resource": "arn:aws:iot:<b>region</b>:<b>account</b>:client/test-*"
     }
-
   ]
 }
 </pre>
